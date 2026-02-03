@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero .lead {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.benefits {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.benefits h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.benefits h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.demo {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.demo-box {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #f0f7ff;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.pricing h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.pricing-card {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card.featured {
+    border-color: #28a745;
+    background: linear-gradient(135deg, #f0fff4 0%, #ffffff 100%);
+    transform: scale(1.05);
+}
+
+.pricing-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.pricing-card .price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.pricing-card .price span {
+    font-size: 1rem;
+    color: #666;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.pricing-card li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.pricing-card li:last-child {
+    border-bottom: none;
+}
+
+.cta {
+    background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cta form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .pricing-card.featured {
+        transform: scale(1);
+    }
+
+    .cta form {
+        flex-direction: column;
+    }
+
+    .cta form input {
+        width: 100% !important;
+    }
+}
