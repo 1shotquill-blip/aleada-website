@@ -1,122 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aleada - 2-Minute Lead Response Guarantee</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+<title>Aleada - 2-Min Response Guarantee</title>
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Aleada</span>
-        </div>
-    </nav>
-
-    <section class="hero">
-        <div class="container">
-            <h1>Aleada: Get Leads Responded to in 2 Minutes or Less</h1>
-            <p class="lead">Your rapid lead response agent - Capture, Qualify, and Notify Instantly</p>
-            <a href="#pricing" class="btn btn-light btn-lg">Get Started for Free</a>
-        </div>
-    </section>
-
-    <section class="benefits">
-        <div class="container">
-            <h2 class="text-center mb-5">Why Aleada?</h2>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <h3>⚡ Lightning Fast</h3>
-                    <p>2-minute guarantee on lead notifications via SMS/Email.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>🤖 AI-Powered</h3>
-                    <p>Smart chat widget qualifies leads automatically.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>🔧 Easy Integration</h3>
-                    <p>Embed on your site with one script tag.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="demo">
-        <div class="container">
-            <h2 class="text-center mb-5">Try the Widget Live</h2>
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="demo-box">
-                        <p>Chat with Aleada below (demo mode):</p>
-                        <script src="https://raw.githubusercontent.com/1shotquill-blip/aleada-widget/main/public/widget.js" data-client="TEST123"></script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2 class="text-center mb-5">Simple Pricing</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="pricing-card">
-                        <h3>Starter</h3>
-                        <p class="price">$29<span>/mo</span></p>
-                        <ul>
-                            <li>1 Widget</li>
-                            <li>100 Leads/mo</li>
-                            <li>Email Notifications</li>
-                        </ul>
-                        <button class="btn btn-primary w-100">Start Free</button>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pricing-card featured">
-                        <h3>Pro</h3>
-                        <p class="price">$99<span>/mo</span></p>
-                        <ul>
-                            <li>5 Widgets</li>
-                            <li>1000 Leads/mo</li>
-                            <li>SMS + Email</li>
-                            <li>Lead Scoring</li>
-                        </ul>
-                        <button class="btn btn-success w-100">Start Free</button>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pricing-card">
-                        <h3>Enterprise</h3>
-                        <p class="price">Custom</p>
-                        <ul>
-                            <li>Unlimited Widgets</li>
-                            <li>Unlimited Leads</li>
-                            <li>Custom Integration</li>
-                            <li>Dedicated Support</li>
-                        </ul>
-                        <button class="btn btn-outline-primary w-100">Contact Sales</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="cta">
-        <div class="container text-center">
-            <h2>Ready to Boost Your Conversions?</h2>
-            <form class="mt-4">
-                <input type="email" placeholder="Your Email" class="form-control d-inline-block w-25 me-2" required>
-                <button type="submit" class="btn btn-light btn-lg">Sign Up</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2026 Aleada. All rights reserved.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<body class="bg-gradient-to-br from-blue-900 to-purple-900 min-h-screen">
+<div class="max-w-4xl mx-auto p-8 text-white">
+  <h1 class="text-5xl font-bold mb-8 text-center">2-Min Response Guarantee</h1>
+  <p class="text-xl mb-12 text-center opacity-90">Clients embed 1 line of code. You get leads instantly.</p>
+  
+  <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+    <div>
+      <h2 class="text-3xl font-bold mb-6">Live Demo</h2>
+      <p class="mb-8">Watch the widget capture leads → your dashboard instantly.</p>
+      <!-- WIDGET EMBED HERE -->
+      <script src="https://raw.githubusercontent.com/1shotquill-blip/aleada-widget/main/public/widget.js" data-client="DEMO"></script>
+    </div>
+    <div class="bg-white/10 p-8 rounded-2xl">
+      <h3 class="text-2xl font-bold mb-4">$29/mo</h3>
+      <ul class="space-y-2 mb-6">
+        <li>✅ 1 website widget</li>
+        <li>✅ 100 leads/month</li>
+        <li>✅ Live dashboard</li>
+        <li>✅ 2-min guarantee</li>
+      </ul>
+      <button class="w-full bg-blue-600 py-4 rounded-xl font-bold text-lg">Start Free Trial</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
-<!-- Deploy Trigger -->
